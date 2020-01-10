@@ -1,6 +1,6 @@
 Name:		libhangul
 Version:	0.1.0
-Release:	6%{?dist}
+Release:	8%{?dist}
 
 License:	LGPLv2+
 URL:		https://code.google.com/p/libhangul/
@@ -65,6 +65,12 @@ rm $RPM_BUILD_ROOT%{_libdir}/%{name}.la
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.1.0-8
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.1.0-7
+- Mass rebuild 2013-12-27
+
 * Wed Mar 27 2013 Daiki Ueno <dueno@redhat.com> - 0.1.0-6
 - pull the latest config.guess and config.sub for ARM64 port
 
